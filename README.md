@@ -85,6 +85,15 @@ sed -i 's/foo/bar/g' FILENAME
 sed -i 's/(//g' abc_patched.txt
 ```
 
+### Print only numbers
+```
+sed "s/[^0-9]//g" ARQUIVO
+```
+
+### Remove spaces
+```
+sed '/^\s*$/d' ARQUIVO
+```
 
 ### Tabela simples de comparação Hexa, Decimal, Octal e Binário
 
