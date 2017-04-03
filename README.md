@@ -95,6 +95,16 @@ sed "s/[^0-9]//g" ARQUIVO
 sed '/^\s*$/d' ARQUIVO
 ```
 
+### Convert to Lowercase
+```
+python -c "print('TEXT').lower()"
+```
+
+### Convert to Uppercase
+```
+python -c "print('text').upper()"
+```
+
 ### Tabela simples de comparação Hexa, Decimal, Octal e Binário
 
 
